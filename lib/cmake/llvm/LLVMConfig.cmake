@@ -15,7 +15,7 @@ set(LLVM_VERSION_MINOR 0)
 set(LLVM_VERSION_PATCH 0)
 set(LLVM_VERSION_SUFFIX git)
 set(LLVM_PACKAGE_VERSION 14.0.0git)
-set(LLVM_PACKAGE_BUGREPORT https://bugs.llvm.org/)
+set(LLVM_PACKAGE_BUGREPORT https://github.com/llvm/llvm-project/issues/)
 
 set(LLVM_BUILD_TYPE Release)
 
@@ -163,6 +163,7 @@ set(LLVM_ENABLE_UNWIND_TABLES ON)
 
 set(LLVM_ENABLE_ZLIB 1)
 if(LLVM_ENABLE_ZLIB)
+  set(ZLIB_ROOT )
   find_package(ZLIB)
 endif()
 
