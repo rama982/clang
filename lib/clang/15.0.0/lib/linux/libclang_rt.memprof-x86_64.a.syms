@@ -403,6 +403,9 @@
   __interceptor_tempnam;
   __interceptor_textdomain;
   __interceptor_time;
+  __interceptor_timer_create;
+  __interceptor_timer_gettime;
+  __interceptor_timer_settime;
   __interceptor_timerfd_gettime;
   __interceptor_timerfd_settime;
   __interceptor_times;
@@ -1575,6 +1578,9 @@
   tempnam;
   textdomain;
   time;
+  timer_create;
+  timer_gettime;
+  timer_settime;
   timerfd_gettime;
   timerfd_settime;
   times;
